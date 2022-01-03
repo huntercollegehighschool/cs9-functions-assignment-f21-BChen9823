@@ -9,7 +9,7 @@ However, there are (at least) 7 errors in the code. Fix them so that it runs pro
 '''
 
 def distinct(num1, num2, num3):
-  if num1 != num2 and num2 != num3 and num1 != num3: #a, b, and c are the three parameters (numbers) that will be passed into the function
+  if num1 != num2 and num2 != num3 and num1 != num3: 
     return True
   else:
     return False
