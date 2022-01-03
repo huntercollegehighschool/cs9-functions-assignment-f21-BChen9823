@@ -2,6 +2,7 @@
 ******
 PART 4
 ******
+
 The triangle inequality theorem states that in any triangle, the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.
 For example, 3, 4, 6 works because:
 3 + 4 > 6 
