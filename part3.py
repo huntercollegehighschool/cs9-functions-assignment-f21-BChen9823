@@ -2,6 +2,7 @@
 ******
 PART 3
 ******
+
 The factorial function is defined below.
 
 Define the combination function which takes two integer arguments, n and r, which represent the number of objects and the number to choose respectively. The function RETURNS (not print) how many combinations are possible. Return it as an integer (// may help here)
