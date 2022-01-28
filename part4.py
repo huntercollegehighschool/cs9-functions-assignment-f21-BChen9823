@@ -2,6 +2,7 @@
 ******
 PART 4
 ******
+
 The triangle inequality theorem states that in any triangle, the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.
 For example, 3, 4, 6 works because:
 3 + 4 > 6 
@@ -12,4 +13,7 @@ Define a function possibletriangle that takes 3 arguments (side1, side2, side3).
 '''
 
 def possibletriangle(side1, side2, side3): #do not change this line
-  pass #delete the word pass when you start writing your code
+  if side1 + side2 > side3 and side1 + side3 > side2 and side2 + side3 > side1:
+    return True
+  else: 
+    return False
